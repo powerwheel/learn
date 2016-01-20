@@ -66,7 +66,7 @@ int main(int argc , char *argv[])
     }
     std::ifstream infile(argv[1]);
     if (!infile){
-        std::cout << argv[1] << " open filed!" << std::endl;
+        std::cout << argv[1] << " open failed!" << std::endl;
         return 0;
     }
     infile.seekg(0, infile.end);
